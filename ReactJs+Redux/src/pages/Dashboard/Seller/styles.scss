@@ -1,0 +1,12 @@
+.active {background-color: blue; color: #fff;}
+.pagination {display: flex; justify-content: center; list-style: none;}
+.userItem {display: flex; align-items: center; line-height: 30px; text-decoration: none;}
+.userItem > div {width: 30px; height: 30px; border-radius: 50%; background: #eee; border: 1px solid blue; text-align: center; text-transform: uppercase; margin-right: 10px;}
+.listItem {margin-bottom: 10px;}
+.danger {color: red; text-align: center;}
+.listItem {display: flex; margin-top: 20px; border-bottom: 1px solid #eee;}
+.listItem span {margin: 0 30px;}
+.success {color: green; text-align: center;}
+.update {display: block; margin-right: 20px;}
+.mainForm label {display: flex; align-items: center; flex-flow: row-reverse nowrap;}
+h1 {text-align: center;}

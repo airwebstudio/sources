@@ -1,0 +1,5 @@
+.active {background-color: blue; color: #fff;}
+.pagination {display: flex; justify-content: center; list-style: none;}
+.userItem {display: flex; align-items: center; line-height: 30px; text-decoration: none;}
+.userItem > div {width: 30px; height: 30px; border-radius: 50%; background: #eee; border: 1px solid blue; text-align: center; text-transform: uppercase; margin-right: 10px;}
+.listItem {margin-bottom: 10px;}

@@ -1,0 +1,25 @@
+{
+    "name": "igor/task-list",
+    "description": "Tasks",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Igor Lebedev",
+            "email": "igor.lebedev.home@gmail.com"
+        }
+    ],
+
+	"autoload": {
+        "psr-4": {
+            "App\\": "app/",
+			"Controllers\\": "controllers/",
+			"Libs\\": "vendor/libs/"
+        },
+		"files": [
+			"vendor/helpers/helper.php"
+		]
+    },
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

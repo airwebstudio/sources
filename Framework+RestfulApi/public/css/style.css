@@ -1,0 +1,12 @@
+.list-group-item.done {
+  
+  
+}
+
+.list-group-item.done .done-btn {
+		display: none;
+}
+
+.list-group-item.done .item-name {
+		text-decoration: line-through;
+}

@@ -1,0 +1,67 @@
+body {display: flex; flex-direction: column; min-height: 100vh; margin: 0; padding: 0;}
+body > div {display: flex; flex-direction: column; min-height: 100vh; margin: 0; padding: 0;}
+header {background-color: #eee; padding: 20px 0; display: flex; justify-content: space-between; align-items: center;}
+header ul {display: flex; margin: 0 0 0 -50px; list-style: none; align-items: center;}
+header ul li {margin-left: 15px; margin-right: 15px;}
+footer {margin-top: auto; background-color: #eee; padding: 40px 0;}
+footer ul {display: flex; margin: 0 0 0 -50px; list-style: none;}
+footer ul li {margin-left: 50px;}
+form {display: flex;flex-direction: column;align-items: center;max-width: 600px;width:100%;margin: 10px auto;}
+form input {margin-bottom: 20px; display: block; width: 100%; height: 40px;}
+form button {height: 40px; width: 100%; display: block; background-color: blue; color: #fff; text-transform: uppercase; font-weight: bold;}
+form label {display: block; width: 100%} 
+hr {height: 2px; background-color: black; margin: 0;}
+img {display: block; width: 100%; height: auto;}
+.success {text-align: center; color: green}
+.danger {text-align: center; color: red}
+
+
+table thead th {
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+  .pagination > li {
+    list-style: none;
+    border: 0.9px solid;
+    margin: 5px;
+  }
+
+  .pagination > li > a {
+      cursor: pointer;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #2c689c;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+  }
+  
+  .pagination>li.active>a {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .pagination > li > a:hover {
+    background-color:  #218838;
+    color: white;
+  }
+  .pagination>li.disabled {
+    
+    display: none;
+  }
+
+
